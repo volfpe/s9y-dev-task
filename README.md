@@ -25,10 +25,10 @@
   - Posts — find, findOne
   - Weather — getinprague
   - Users — find
+
 ![Public role](https://paper-attachments.dropbox.com/s_DCFD24E9370D098B4806DF02C204D0CE5F238AC74FBC80CA6425572CB53DB22D_1554805727308_strapi3.png)
 
-![Post a Weather resource](https://paper-attachments.dropbox.com/s_DCFD24E9370D098B4806DF02C204D0CE5F238AC74FBC80CA6425572CB53DB22D_1554832421974_s2.png)
-![User resource](https://paper-attachments.dropbox.com/s_DCFD24E9370D098B4806DF02C204D0CE5F238AC74FBC80CA6425572CB53DB22D_1554800400672_strapi2.png)
+![Post a Weather resource](https://paper-attachments.dropbox.com/s_DCFD24E9370D098B4806DF02C204D0CE5F238AC74FBC80CA6425572CB53DB22D_1554832421974_s2.png) ![User resource](https://paper-attachments.dropbox.com/s_DCFD24E9370D098B4806DF02C204D0CE5F238AC74FBC80CA6425572CB53DB22D_1554800400672_strapi2.png)
 
 - Adresa graphql backendu je http://localhost:1337/graphql
   - Zde si lze i vyzkoušet v prohlížeči graphql query v interaktivním editoru.
