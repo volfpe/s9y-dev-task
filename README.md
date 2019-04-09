@@ -57,12 +57,14 @@ Seřazeno dle priority, čím více toho stihnete tím lépe.
   - Počasí se získá např z https://www.metaweather.com/api/location/796597/ (Praha)
     - Stačí zobrazit první záznam z klíče `consolidated_weather` — Minimální, maximální teplotu a `weather_state_name` (zataženo/slunečno…)
   - Stačí aby fungovala následující GraphQL Query:
+  ```
     query {
       weather {
         mintemperature
         maxtemperature
       }
     }
+    ```
 - Na frontendu získat počasí ze Strapi serveru a zobrazit ho (třeba na hlavní stránce).
 - Ve Strapi vytvořit nový Content Type se jménem `category`. 
   - Kategorie bude mít 2 fieldy:
@@ -71,6 +73,7 @@ Seřazeno dle priority, čím více toho stihnete tím lépe.
   - Vytvoření nového content type viz dokumentace Strapi
   - Po vytvoření bude potřeba povolit přístup k resourcům stejně jako v kroku *Spouštění backendu* (find & findOne)
   - Následující GraphQL query by měla vpořádku proběhnout
+  ```
     query {
       categories {
         id
@@ -82,7 +85,7 @@ Seřazeno dle priority, čím více toho stihnete tím lépe.
         }
       }
     }
-    
+    ```  
 - Na frontendu získat a zobrazit jméno kategorie vedle titulku článku
 - Na hlavní stránce zobrazit jména všech kategorií, po kliknutí na název kategorie zobrazit články pouze z dané kategorie (filtrování v gql query: https://strapi.io/documentation/3.x.x/guides/graphql.html#configurations)
         
