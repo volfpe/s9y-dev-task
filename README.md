@@ -11,7 +11,6 @@
 - Strapi
 - Klidně další, dle uvážení 🙂
 ## Boilerplate projektu
-- Projekt je k dispozici na http://link.com
 - Struktura obsahuje vygenerovaný backend pomocí kterého lze získat seznam článků.
 - Je zde základní struktura React aplikace s potřebnými knihovnami a ukázkovým kódem.
 ## Spuštění backendu
