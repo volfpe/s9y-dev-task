@@ -1,4 +1,4 @@
-# Dev challenge — Wikipedia
+# Dev — Wikipedia
 
 ## Cíl projektu
 - Vytvořit funkční aplikaci pro zobrazování článků.
