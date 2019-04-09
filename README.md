@@ -49,6 +49,7 @@ Seřazeno dle priority, čím více toho stihnete tím lépe.
 
 - Fetch článků ze serveru do React aplikace (Pomocí Apollo a GraphQL).
 - Zobrazení titulků článků na hlavní stránce.
+- Filtrování článků dle názvu titlku (textinput + React state).
 - Po rozkliknutí titulku zobrazit obsah článku.
   - může se hodit https://strapi.io/documentation/3.x.x/guides/graphql.html#query-api
 - Na backendu upravit resolver query typu *weather*, který vrátí aktuální data o počasí v Praze.
