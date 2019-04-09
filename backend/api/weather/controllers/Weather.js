@@ -10,8 +10,8 @@ module.exports = {
   getInPrague: async () => {
     return {
       state: 'sunny',
-      mintempature: 10,
-      maxtempature: 12
+      mintemperature: 10,
+      maxtemperature: 12
     };
   }
 };

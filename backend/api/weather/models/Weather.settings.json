@@ -12,10 +12,10 @@
     "state": {
   "type": "string"
 },
-"mintempature": {
+"mintemperature": {
   "type": "string"
 },
-"maxtempature": {
+"maxtemperature": {
   "type": "string"
 }
   }

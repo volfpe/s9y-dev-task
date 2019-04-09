@@ -281,6 +281,6 @@ type Weather {
   created_at: DateTime!
   updated_at: DateTime!
   state: String
-  mintempature: String
-  maxtempature: String
+  mintemperature: String
+  maxtemperature: String
 }
