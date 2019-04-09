@@ -1,0 +1,18 @@
+module.exports = {
+  definition: ``,
+  query: `
+    weather: Weather!
+  `,
+  type: {
+    Weather: false
+  },
+  resolver: {
+    Query: {
+      weather: {
+        description: 'Return weather in Prague',
+        resolver: 'Weather.getInPrague'
+      },
+      weathers: false
+    }
+  }
+};

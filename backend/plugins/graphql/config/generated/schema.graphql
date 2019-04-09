@@ -110,7 +110,7 @@ The `JSON` scalar type represents JSON values as specified by [ECMA-404](http://
 """
 scalar JSON
 
-union Morph = UsersPermissionsMe | UsersPermissionsMeRole | Post | createPostPayload | updatePostPayload | deletePostPayload | UploadFile | UsersPermissionsPermission | UsersPermissionsRole | createRolePayload | updateRolePayload | deleteRolePayload | UsersPermissionsUser | createUserPayload | updateUserPayload | deleteUserPayload
+union Morph = UsersPermissionsMe | UsersPermissionsMeRole | Post | createPostPayload | updatePostPayload | deletePostPayload | Weather | UploadFile | UsersPermissionsPermission | UsersPermissionsRole | createRolePayload | updateRolePayload | deleteRolePayload | UsersPermissionsUser | createUserPayload | updateUserPayload | deleteUserPayload
 
 type Mutation {
   createPost(input: createPostInput): createPostPayload
@@ -162,6 +162,7 @@ type Query {
   roles(sort: String, limit: Int, start: Int, where: JSON): [UsersPermissionsRole]
   user(id: ID!): UsersPermissionsUser
   users(sort: String, limit: Int, start: Int, where: JSON): [UsersPermissionsUser]
+  weather: Weather!
   me: UsersPermissionsMe
 }
 
@@ -273,4 +274,13 @@ type UsersPermissionsUser {
   confirmed: Boolean
   blocked: Boolean
   role: UsersPermissionsRole
+}
+
+type Weather {
+  id: ID!
+  created_at: DateTime!
+  updated_at: DateTime!
+  state: String
+  mintempature: String
+  maxtempature: String
 }

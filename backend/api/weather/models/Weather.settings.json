@@ -1,0 +1,22 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "weather",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "state": {
+  "type": "string"
+},
+"mintempature": {
+  "type": "string"
+},
+"maxtempature": {
+  "type": "string"
+}
+  }
+}
